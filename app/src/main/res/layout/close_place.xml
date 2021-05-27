@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:background="@color/grey"
+                android:text="Східниця"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:visibility="visible" />
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="Тустань"
+                android:visibility="visible"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="#c1c1c1"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tustan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:text="Загадкові сірі скелі щодня приваблюють туристів з усього світу. Це Урицькі скелі, які, на думку вчених, сформувалися з давнього мулу, що покривав дно океану Тетіс. Зараз на їх вершині збереглися залишки дивного і унікального за своєю природою оборонного комплексу Тустань."
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Скелі Довбуша"
+                android:textSize="32sp"
+                android:visibility="visible"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="#c1c1c1"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dovbush" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Скелі Довбуша – одна з головних визначних пам’яток Івано-Франківської області. Назву вони отримали по імені Олекси Довбуша, глави опришків, які приховували тут свій табір."
+                android:textSize="20sp"
+                android:visibility="visible"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Сколівські Бескиди"
+                android:textSize="32sp"
+                android:visibility="visible"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="#c1c1c1"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sklovskibeskudu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="«Сколівські Бескиди» – національний природний парк, створений в 1999 році. Він розкинувся на три райони Львівської області: Сколівський, Дрогобицький, Турківський. Крізь нього проходить річка Стрий та її притока Опір. На території – багатовікові ялинові, ялицеві та букові ліси, які збереглися практично недоторканими."
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

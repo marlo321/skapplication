@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Східниця</string>
+    <string name="dialog_title">Виберіть хворобу</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="ok_label">Ок</string>
+    <string name="dismiss_label">Відмінити</string>
+    <string name="clear_all_label">Очистити все</string>
+    <string name="txtCredits"><a href="https://uk.wikipedia.org/wiki/%D0%A1%D1%85%D1%96%D0%B4%D0%BD%D0%B8%D1%86%D1%8F">Більше інформації про селище</a></string>
+
+    <string-array name="shopping_item">
+        <item>Панкреатит</item>
+        <item>Пієлонефрит</item>
+        <item>Хвороби печінки</item>
+        <item>Цукровий діабет</item>
+        <item>Хронічний холесциту</item>
+        <item>Хронічний панкреатит</item>
+        <item>Хронічний цистит</item>
+        <item>Хронічий гастрит</item>
+        <item>Захворювання шлунка</item>
+        <item>Захворювання кишківника</item>
+        <item>Захворювання сечовивідних шляхів</item>
+        <item>Виразкова хвороба</item>
+        <item>Залідефіцитній анемії</item>
+        <item>Холангіт</item>
+        <item>Гепатит</item>
+        <item>Холецистит</item>
+        <item>Літогенних діатезах</item>
+        <item>Хвороба Боткіна</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>
